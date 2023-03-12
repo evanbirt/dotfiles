@@ -4,3 +4,7 @@ mkd() {
 	mkdir -p "$@"
 	cd "$@" || exit
 }
+gsq() {
+	git reset --soft HEAD~"$@"
+	git status --short
+}
