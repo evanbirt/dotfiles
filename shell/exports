@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# default editor
+export EDITOR="vim"
+# don't clear screen on manpage exit
+export MANPAGER="less -X"
