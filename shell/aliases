@@ -1,3 +1,13 @@
 #!/bin/bash
 
+# shell
 alias sz="source ~/.zshrc"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias ip="curl ifconfig.me/ip ; echo"
+alias cl='clear ; ls -lhA'
+alias l="ls -lhAF"
+alias ll="ls -lh"
+alias week="date +%V"
+alias v="vim"
