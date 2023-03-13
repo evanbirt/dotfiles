@@ -6,6 +6,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias ip="curl ifconfig.me/ip ; echo"
+alias cdd="cd ~/folder/dev"
 alias c="clear"
 alias cl='clear ; ls -lhA'
 alias l="ls -lhAF"
